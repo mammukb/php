@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.image {
+    margin-left: 400px;
+
+
+    height: 250px;
+    width: 250px;
+}
+
+#image_div {
+    height: 250px;
+
+}
+
+#shiva {
+    position: absolute;
+}
+
+#mukund {
+    position: absolute;
+    opacity: 0;
+    animation: myanimation 4s infinite;
+
+}
+
+@keyframes myanimation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.last_div {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    border: 2px solid red;
+}
+
+#div1 {
+    padding: 40px;
+    flex: 1;
+
+}
+
+#div2 {
+    padding: 40px;
+    flex: 1;
+}

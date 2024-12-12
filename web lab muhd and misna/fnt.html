@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascrip Function</title>
+        <style>
+        body{
+            margin: 0;
+
+        }
+        .b{
+           margin-left: 200px;
+           width: 250px;
+           /* padding: 10px 20px 10px 20px; */
+           /* padding-left: 5px;
+           padding-right: 5px; */
+           background: #f7f7f7;
+           color: rgb(13, 12, 12);
+        }
+
+        #math{
+            display: none;
+        }
+        #string{
+            display: none;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>JAVASCRIPT</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            labore at quas id, eos expedita perferendis modi pariatur
+            consequatur nemo maxime illum deleniti soluta laboriosam eaque
+            exercitationem numquam, esse voluptates voluptate, possimus hic
+            veritatis rerum amet. Obcaecati ad, ab aperiam voluptate aliquam
+            natus consectetur! Ipsam, eaque consequuntur. Alias sed dignissimos
+            nulla doloremque qui voluptatum nobis suscipit tenetur accusamus
+            esse, incidunt enim libero fugit saepe quaerat, reprehenderit
+            praesentium dolorum, asperiores aliquid maxime voluptate tempore
+            sapiente veritatis amet. Nemo deserunt illum, non laboriosam modi
+            quaerat commodi repudiandae vitae fugit reiciendis sunt saepe quam.
+            Beatae molestiae repudiandae itaque, quos asperiores hic quibusdam
+            mollitia.</p>
+    <button class="b"  onclick="showmath()"  ><h1>Math</h1></button>
+    <button class="b"  onclick="showstring()"  ><h1>String</h1></button>
+
+    <div id="math">
+        <h2>Math Function</h2>
+        <ol>
+        <li>sqrt function</li>
+        <li>pow function</li>
+        <li>max function</li>
+        <li>min function</li></ol>
+    </div>
+    <div id="string">
+        <h2>String function</h2>
+        <ol>
+         <li>Cmp</li>
+         <li>Concatination</li>
+         <li>Split</li>
+        </ol>
+    </div>
+    </body>
+
+    <script>
+        function showmath() {
+           document.getElementById('math').style.display="block";
+           document.getElementById('string').style.display="none";
+          
+        }
+        function showstring() {
+           document.getElementById('math').style.display="none";
+           document.getElementById('string').style.display="block";
+          
+        }
+    </script>
+</html>
